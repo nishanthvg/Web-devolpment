@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Register Form
+        </title>
+        <body>
+            <section>            
+                <header><h1>Register</h1></header>
+                <footer>Created with love</footer><br>
+            </section>
+            <!-- <div></div> - helps in dividing the content -->
+            <!-- use get , not post - get helps in getting the raw data of the register through url  -->
+            <form method = "GET">
+                <strong>First Name - <input type ="text" name = "First Name" required > <br></strong> <br>
+                <strong>Last Name  - <input type ="text" name = "Second Name" required > <br></strong><br>
+                <strong>Email      - <input type ="email" name = "Email" required> <br></strong><br>
+                <strong>Birthday   - <input type ="date" name = "Birthday" required > <br></strong><br>
+                <strong>Gender     -
+                    <input type ="radio" name = "Gender" value = "Male" required > Male 
+                    <input type ="radio" name = "Gender" value = "Female" required > Female <br>
+                </strong><br>
+                <strong>Education  -
+                    <input type ="checkbox" name = "Education"  > School 
+                    <input type ="checkbox" name = "Education" > college <br>
+                </strong><br>
+                <strong>
+                    Password - 
+                    <input type = "password" name = "Password" min = "5">
+                </strong><br>
+                <br>
+                <strong>
+                    Cars - 
+                    <select name = "Cars">
+                        <option value = : "Audi" name = "Audi" >Audi</Audio></option> 
+                        <option value = : "BMW" name = "BMW">BMW</option> 
+                        <option value = : "Volvo" name = "Volvo">Volvo</option> 
+                    </select>
+                </strong><br>
+                <br>
+                <input type = "submit" value = "Register">  
+                <input type = "reset"> <br>
+                - Default there is input type for submit button but can be changed according to our wish <br>
+                - There is default input type for reset button <br>
+                - There is default input type for email <br>
+                - There is default type for mandatory field 
+                - There is default input type for every thing - check it out 
+            </form>
+        </body>
+    </head>
+</html>

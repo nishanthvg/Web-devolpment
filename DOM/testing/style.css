@@ -1,0 +1,12 @@
+.link {
+    background:none;
+    border:none;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+li {
+    cursor: pointer;
+}

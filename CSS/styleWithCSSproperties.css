@@ -1,0 +1,80 @@
+/* Selector {
+    Property :value;
+} */
+* {
+    text-align: right ;
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1537791333993-1616de87a8d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60);
+    background-size: cover;
+}
+
+h1 , p:hover {
+    color: black;
+    text-align: center;
+    border: 5px dashed purple;
+    cursor: pointer;
+}
+
+p {
+    color: green;
+}
+
+li {
+    list-style: none; 
+    display: inline-block;
+    /* helps in removing the pointer for the list */
+}
+.anyName:last-child {
+    color: royalblue;
+    border: 5px solid purple ;
+    text-align: center;
+
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0,0,255,0.2);
+}
+#div2 {
+    background: rgba(301,0,25,0.2);
+}
+
+
+
+
+
+
+
+/* div , . are called as selectors  */
+/* *- used make changes to all  */
+/* CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter.  */
+
+
+/* .class 
+#id
+*
+element
+element, element - When two elements are made same changes 
+element element - ex- h2 p - this means all p inside h2 
+element > element - ex - h2 > p - this means parent of p is h2 
+element + element - ex h2+p - p next to h2
+:hover - 
+:last-child
+:first-child
+!important - simply overides everything and establishes the tag with this one */
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order

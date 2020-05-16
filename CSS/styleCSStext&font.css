@@ -1,0 +1,47 @@
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1572994384812-d66fea58513f?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    border: 5px dashed purple;
+    cursor: pointer;
+}
+
+p {
+    color:skyblue;
+    text-align: center;
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    line-height: 60px;
+    font-style: italic;
+    font-weight: 400; 
+    /*font wright - 100 -900 or bold   */
+    font-size: 150%;
+    font-family: 'Pacifico', cursive;
+}
+img {
+    float: left;
+}
+footer {
+    clear: both;
+    text-align: center;
+    color: blue;
+}
+/* BOX Model */
+ .boxmodel {
+     border: 5px solid red;
+     display: inline-block;
+     text-align: left;/* To increse space inside the box */
+     padding: 5px 20px 5px 20px;
+     margin: 0px 20px 0px 20px;
+
+ }
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
